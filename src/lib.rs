@@ -16,7 +16,7 @@
 /// assert_eq!(dw10::items_in_stock(), 7);
 /// ```
 pub fn items_in_stock() -> u32 {
-    "7"
+    7
 }
 
 /// One-line stock report.
@@ -25,6 +25,6 @@ pub fn items_in_stock() -> u32 {
 /// assert_eq!(dw10::stock_report(), "7 in stock");
 /// ```
 pub fn stock_report() -> String {
-    let count = items_in_stok();
+    let count = items_in_stock();
     format!("{} in stock", count)
 }
